@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Online</title>
+
+    <link rel="stylesheet" href="../Static Files/CSS/medias.css" />
+    <link rel="stylesheet" href="../Static Files/CSS/style.css" />
+
+    <script src="../Static Files/JS/script.js"></script>
+  </head>
+  <body onload="verifyKeypad()">
+    <main class="dark-theme" id="main-container">
+      <div id="calculator-container">
+        <section id="top">
+          <h1>calc</h1>
+          <div id="theme-buttons">
+            <span>THEME</span>
+            <div id="buttons">
+              <div id="labels">
+                <label for="dark-theme">1</label>
+                <label for="light-theme">2</label>
+                <label for="purple-theme">3</label>
+              </div>
+              <div id="radios">
+                <input
+                  type="radio"
+                  id="dark-theme"
+                  name="theme"
+                  value="1"
+                  onclick="switchTheme('dark')"
+                />
+                <input
+                  type="radio"
+                  id="light-theme"
+                  name="theme"
+                  value="2"
+                  onclick="switchTheme('light')"
+                />
+                <input
+                  type="radio"
+                  id="purple-theme"
+                  name="theme"
+                  value="3"
+                  onclick="switchTheme('purple')"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="result-area">
+          <span id="calc-result"></span>
+        </section>
+        <section id="keypad-area">
+          <div class="row">
+            <button class="normal-key" type="button" value="7">7</button>
+            <button class="normal-key" type="button" value="8">8</button>
+            <button class="normal-key" type="button" value="9">9</button>
+            <button class="second-key" type="button" value="DEL">DEL</button>
+          </div>
+          <div class="row">
+            <button class="normal-key" type="button" value="4">4</button>
+            <button class="normal-key" type="button" value="5">5</button>
+            <button class="normal-key" type="button" value="6">6</button>
+            <button class="normal-key" type="button" value="+">+</button>
+          </div>
+          <div class="row">
+            <button class="normal-key" type="button" value="1">1</button>
+            <button class="normal-key" type="button" value="2">2</button>
+            <button class="normal-key" type="button" value="3">3</button>
+            <button class="normal-key" type="button" value="-">-</button>
+          </div>
+          <div class="row">
+            <button class="normal-key" type="button" value=".">.</button>
+            <button class="normal-key" type="button" value="0">0</button>
+            <button class="normal-key" type="button" value="/">/</button>
+            <button class="normal-key" type="button" value="*">*</button>
+          </div>
+          <div class="row">
+            <button
+              class="second-key option-button"
+              type="button"
+              value="RESET"
+            >
+              RESET
+            </button>
+            <button class="third-key option-button" type="button" value="=">
+              =
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

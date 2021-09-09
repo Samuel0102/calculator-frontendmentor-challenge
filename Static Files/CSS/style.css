@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan';
+}
+
+body{
+    box-sizing: content-box;
+}
+
+:root{
+    --result-font-size: 42px;
+}
+
+.dark-theme{
+    --main-background: #3B4664;
+    --keypad-background: #252D44;
+    --result-background: #171F32;
+    --fonts-color: white;
+    --key-color: hsl(221, 14%, 31%);
+    --key-background: hsl(30, 25%, 89%);
+    --key-shadow: hsl(28, 16%, 65%);
+    --primary-key-background: hsl(225, 21%, 49%);
+    --result-key-background: hsl(6, 63%, 50%);
+    --primary-key-shadow: hsl(224, 28%, 35%);
+    --result-key-shadow: hsl(6, 70%, 34%);
+}
+
+.light-theme{
+    --main-background: hsl(0, 0%, 90%);
+    --keypad-background: hsl(0, 5%, 81%);
+    --result-background: hsl(0, 0%, 93%);
+    --fonts-color: hsl(60, 10%, 19%);
+    --key-color: hsl(35, 11%, 61%);
+    --key-background: hsl(45, 7%, 89%);
+    --key-shadow: hsl(35, 11%, 61%);
+    --primary-key-background: hsl(185, 42%, 37%);
+    --result-key-background: hsl(25, 98%, 40%);
+    --primary-key-shadow: hsl(185, 58%, 25%);
+    --result-key-shadow: hsl(25, 99%, 27%);
+}
+
+.purple-theme{
+    --main-background: hsl(268, 75%, 9%);
+    --keypad-background: hsl(268, 71%, 12%);
+    --result-background: hsl(268, 71%, 12%);
+    --fonts-color: white;
+    --key-color: hsl(52, 100%, 62%);
+    --key-background: hsl(281, 89%, 26%);
+    --key-shadow: hsl(285, 91%, 52%);
+    --primary-key-background: hsl(268, 47%, 21%);
+    --result-key-background: hsl(176, 100%, 44%);
+    --primary-key-shadow: hsl(290, 70%, 36%);
+    --result-key-shadow: hsl(177, 92%, 70%);
+}
+
+
+/* Calculator */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--main-background);
+}
+
+#calculator-container{
+    margin-top: 50px;
+    color: var(--fonts-color);
+}
+
+/* Calculator top */
+#calculator-container #top{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#top #theme-buttons{
+    display: flex;
+    align-items: flex-end;
+    gap: 22px;
+}
+
+#theme-buttons #labels{
+    margin-left: 3px;
+    letter-spacing: .4em;
+    font-size: 10px;
+}
+
+#theme-buttons span{
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 12px;
+}
+
+/* Calculator result */
+#result-area{
+    width: 100%;
+    height: 100px;
+    margin: 25px 0;
+    background-color: var(--result-background);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#result-area #calc-result{
+    font-size: var(--result-font-size);
+    padding: 28px;
+}
+
+/* Calculator Keypad */
+#keypad-area{
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 8px;
+    background-color: var(--keypad-background);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Keys estilization */
+
+button{
+    color: white;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.normal-key{
+    color: var(--key-color);
+    background-color: var(--key-background);
+    box-shadow: 0 4px var(--key-shadow);
+}
+
+.second-key{
+    background-color: var(--primary-key-background);
+    box-shadow: 0 4px var(--primary-key-shadow);
+
+}
+
+.third-key{
+    background-color: var(--result-key-background);
+    box-shadow: 0 4px var(--result-key-shadow);
+}
+

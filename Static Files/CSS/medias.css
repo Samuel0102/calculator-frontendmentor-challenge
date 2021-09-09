@@ -1,0 +1,36 @@
+@media(max-width: 576px) {
+    button{
+        font-size: 1.2em;
+        width: 48px;
+        height: 38px;
+    }
+
+    .option-button{
+        width: 110px;
+    }
+
+    #calculator-container{
+        width: 290px;
+        height: 600px;
+    }
+    
+}
+
+@media (min-width: 768px){
+    button{
+        font-size: 1.8em;
+        width: 80px;
+        height: 50px;
+    }
+
+    .option-button{
+        width: 175px;
+    }
+
+    #calculator-container{
+        width: 420px;
+        height: 600px;
+    }
+
+
+}
