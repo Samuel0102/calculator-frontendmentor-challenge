@@ -1,42 +1,36 @@
-### Titulo
-Breve descricao
+### Calculadora FrontEnd Mentor
+Calculadora em Js como desafio proposto pela plataforma Front End Mentor
 
 # Sobre o projeto
-
 ## Introdução
-Descricao mais detalhada
+Seguindo o design e a estrutura pedida pela plataforma, o projeto trata-se de uma calculadora, contendo as operações básicas da matemática
 
 ## Especificações
 *Autor*: Samuel Pacheco Ferreira    
-*Descrição*: ""  
-*Andamento*: ""      
-*Terá atualizações*:  ""        
+*Descrição*: Calculadora em JS 
+*Andamento*: Finalizado     
+*Terá atualizações*:  Não        
 
 ## Tecnologias
-*Tecnologias utilizadas*: ""       
+*Tecnologias utilizadas*: HTML, CSS e JS       
 *IDE*: Visual Studio Code.      
-*Estruturação*: E""   
+*Estruturação*: HTML   
 
 ## Funcionalidades
-| Funcionalidade | Situação |
-| ----------- | ----------- |
-| "" | "" |
-
-
-:clock130: - Em desenvolvimento   :heavy_check_mark: - Finalizado
+Página estática
 
 ## Requisitos para manipular código
-* "" 
+* Nenhum
 
 ## Execução do sistema
-1. ""
+1. Basta executar o arquivo "index.html" em qualquer navegador
 
 ## Documentações do sistema e outros arquivos
-:link: "" 
+Nenhum item complementar
 
 ## Origem do projeto
-"" 
+:link: https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29/hub/calculator-app-Yg9bprfuP
 
 ## Principais dificuldades
-* "" 
+* Organização e boa lógica do código JS
 
