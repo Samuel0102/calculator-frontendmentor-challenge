@@ -17,7 +17,12 @@ Seguindo o design e a estrutura pedida pela plataforma, o projeto trata-se de um
 *Estruturação*: HTML   
 
 ## Funcionalidades
-Página estática
+Seguindo o desafio, a página consegue realizar as quatro operações básicas e também trabalha com números decimais.
+
+## Visual final
+<a href="https://ibb.co/5sFwQ5L"><img src="https://i.ibb.co/nQCtXDj/a.png" alt="a" border="0"></a>
+<a href="https://ibb.co/4ZGgwWZ"><img src="https://i.ibb.co/XZgkfXZ/b.png" alt="b" border="0"></a>
+<a href="https://ibb.co/q0qJVZz"><img src="https://i.ibb.co/bHwbDfx/c.png" alt="c" border="0"></a>
 
 ## Requisitos para manipular código
 * Nenhum
